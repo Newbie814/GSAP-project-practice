@@ -12,15 +12,31 @@
 
 // gsap.to('.logo', { duration: 2, x: 300 });
 
-gsap.to('.logo', {
-  duration: 3,
-  x: 400,
-  opacity: 100,
+// gsap.to('.logo', {
+//   duration: 3,
+//   x: 400,
+//   opacity: 100,
 
-  backgroundColor: '#124563',
-  borderRadius: '10%',
-  border: '5px solid white',
-  padding: '10px',
-  ease: 'bounce
-  ',
+//   backgroundColor: '#124563',
+//   borderRadius: '10%',
+//   border: '5px solid white',
+//   padding: '10px',
+//   ease: 'bounce',
+// });
+
+// gsap.set('.logo, .autocad', { transformOrigin: '50% 50%' });
+// gsap.to('.logo, .autocad', { duration: 20, rotation: 360 })
+
+// gsap.from('.logo', {
+//   duration: 2.5,
+//   opacity: 0,
+//   scale: 0.1,
+//   ease: 'back',
+// });
+
+gsap.from('.circle', {
+  duratiion: 10,
+  opacity: 0,
+  y: 'random(-200, 200)',
+  stagger: 0.25,
 });
