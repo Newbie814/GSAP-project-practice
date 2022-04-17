@@ -35,8 +35,8 @@
 // });
 
 gsap.from('.circle', {
-  duratiion: 10,
+  duration: 2,
   opacity: 0,
-  y: 'random(-200, 200)',
+  y: 'random(-400, 400)',
   stagger: 0.25,
 });
